@@ -1,0 +1,146 @@
+/* -------- Variables -------- */
+:root {
+    --light-gray: #f1f1f1;
+    --main-color: #FF8080;
+    --sec-main-color: #86C5BC;
+}
+/* --------------------------- */
+
+.row {
+    width: 60%;
+    margin: auto;
+    padding-block: 100px;
+}
+
+/* -------- Header -------- */
+.hero {
+    background-image: url('../Images/Bg-Header.jpg');
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    width: 150px;
+}
+
+header.hero .row {
+    padding-block: 50px 200px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+h1 {
+    font-size: 45px;
+    margin-bottom: 3px;
+    color: rgb(0, 0, 0, 0.95);
+}
+
+.hero p {
+    color: rgb(0, 0, 0, 0.66);
+    font-size: 25px;
+}
+
+.menu ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.item-menu {
+    padding: 10px 20px;
+    color: #000;
+    background-color: var(--light-gray);
+}
+
+.current-page {
+    color: #fff;
+    background-color: var(--sec-main-color);
+}
+
+
+/* -------- About -------- */
+.about {
+    background-color: #fff;
+}
+
+
+.row-grid {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+}
+
+.row-grid img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    columns: 1 / 2;
+}
+
+div.about-content {
+    columns: 2 / 7;
+    margin-left: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+    color: rgb(0, 0, 0, 0.66);
+    margin-bottom: 25px;
+}
+
+.btn {
+    margin-top: 25px;
+    padding: 10px 50px;
+    background-color: var(--main-color);
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+} 
+/* -------- Products -------- */
+.main-products {
+    background-color: var(--light-gray);
+}
+
+.main-products .row h2,
+.main-products .row h3 {
+    columns: 1 / 7;
+    text-align: center;
+} 
+
+
+/* -------- Testimonials -------- */
+.testimonials {
+    background-color: var(--main-color);
+}
+
+.
+
+/* -------- Footer -------- */
+.footer {
+    background-color: var(--sec-main-color);
+}
+
+
+
+
+
+
+img {
+    width: 50px;
+}
+
